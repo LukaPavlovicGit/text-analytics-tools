@@ -1,0 +1,56 @@
+<!--
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a [routerLink]="'/'" class="navbar-brand">Dandelion</a>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+        <div class="navbar navbar-dark bg-dark">
+          <a [routerLink]="'/configuration'" class="nav-link active" aria-current="page">Configuration</a>
+          <a [routerLink]="'/entity-extraction'" class="nav-link active" aria-current="page">Entity Extraction</a>
+          <a [routerLink]="'/text-similarity'" class="nav-link active" aria-current="page">Text Similarity</a>
+          <a [routerLink]="'/language-detection'" class="nav-link active" aria-current="page">Language Detection</a>
+          <a [routerLink]="'/sentiment-analysis'" class="nav-link active" aria-current="page">Sentiment Analysis</a>
+          <a [routerLink]="'/history'" class="nav-link active" aria-current="page">History</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+-->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Dandelion</a>
+        <div class="navbar-nav">
+          <a class="nav-link" [routerLink]="'/configuration'" aria-current="page">Configuration</a>
+          <a class="nav-link" [routerLink]="'/entity-extraction'">Entity Extraction</a>
+          <a class="nav-link" [routerLink]="'/text-similarity'">Text Similarity</a>
+          <a class="nav-link" [routerLink]="'/language-detection'">Language Detection</a>
+          <a class="nav-link" [routerLink]="'/sentiment-analysis'">Sentiment Analysis</a>
+          <a class="nav-link" [routerLink]="'/history'">History</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Your main content goes here -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+
+
+<router-outlet></router-outlet>

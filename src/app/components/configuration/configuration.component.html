@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>Configuration</h1>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <input [(ngModel)]="token" type="text" class="form-control" placeholder="enter token here">
+      <div class="error-message text-danger" *ngIf="isTokenEmpty()"> Token is required! </div>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn btn-primary btn-block" [disabled]="isTokenEmpty()" (click)="setToken()">Set Token</button>
+    </div>
+  </div>
+</div>

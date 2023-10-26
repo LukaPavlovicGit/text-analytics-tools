@@ -1,0 +1,56 @@
+/* Styles for the entity container */
+.entity-container {
+  margin: 20px;
+}
+
+/* Styles for each entity item */
+.entity-item {
+  margin-bottom: 20px;
+}
+
+/* Styles for the separator line */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the entity info section */
+.entity-info {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the entity title */
+.entity-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styles for the accuracy */
+.entity-info p {
+  margin: 0;
+}
+
+/* Styles for the entity image */
+.entity-image img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/* Styles for the abstract and categories sections */
+.entity-section {
+  margin-top: 10px;
+}
+
+.entity-section h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.entity-section p {
+  margin: 0;
+}
